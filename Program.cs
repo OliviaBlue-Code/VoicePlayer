@@ -21,6 +21,7 @@ namespace VoicePlayer
             speak.SelectVoiceByHints(VoiceGender.Female);// to change voice or age
             string greeting = "Hello user. Welcome to the chatbot. Please input your name: ";
             speak.Speak(greeting);
-            }
+            WriteLine(greeting);
+        }
     }
 }
